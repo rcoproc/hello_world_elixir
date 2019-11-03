@@ -1,6 +1,7 @@
 defmodule HelloWeb.PageController do
   use HelloWeb, :controller
 
+
   def index(conn, _params) do
     render(conn, "index.html")
   end
@@ -15,4 +16,5 @@ defmodule HelloWeb.PageController do
 
   #  render(conn, "index.json", pages: pages)
   #end
+
 end
